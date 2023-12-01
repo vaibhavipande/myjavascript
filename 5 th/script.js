@@ -1,148 +1,159 @@
+// type 1
 
-// looping statements
+let a = 0
 
-// while, do - while, for , forEach , for of , and for in
+while( a <= 5 ){
 
-// while loop
+    console.log(a)
+    a++
 
-// let a = 0
+}
 
-// while(condition){
-//     // statement / code
-//     // updation
-// }
+// type 2
 
-// while( a <= 100 ){
+let b = 5
 
-//     console.log(a)
-//     a++
+while( b >= 0 ){
+    console.log(b)
+    b--
+}
 
-// }
+// type 3
 
-// let b = 100
+// odd
+let num = 14;
 
-// while( b >= 0 ){
-//     console.log(b)
-//     b--
-// }
+if( num % 2 != 0 ){
+    console.log(num + " is odd")
+}else{
+    console.log(num + " is even")
+}
 
-// let num = 5;
 
-// if( num % 2 != 0 ){
-//     console.log(num + " is odd")
-// }else{
-//     console.log(num + " is even")
-// }
+// even
+let num2 = 15;
 
-// if( num % 2 == 0 ){
-//     console.log(num + " is even")
-// }else{
-//     console.log(num + " is odd")
-// }
+if( num2 % 2 != 0 ){
+    console.log(num2 + " is odd")
+}else{
+    console.log(num2 + " is even")
+}
 
-// if( num % 2 == 1 ){
-//     console.log(num + " is odd")
-// }else{
-//     console.log(num + " is even")
-// }
 
-// let c = 0
+if( num % 2 == 0 ){
+    console.log(num + " is even")
+}else{
+    console.log(num + " is odd")
+}
 
-// while (c <= 100){
-//     if(c % 2 == 0){
-//         console.log(c + " is even !")
-//     }else{
-//         console.log(c + " is odd !")
-//     }
-//     c++
-// }
+
+
+if( num2 % 2 == 1 ){
+    console.log(num + " is odd")
+}else{
+    console.log(num + " is even")
+}
+
+let c = 0
+
+while (c <= 10){
+    if(c % 2 == 0){
+        console.log(c + " is even !")
+    }else{
+        console.log(c + " is odd !")
+    }
+    c++
+}
 
 // factorial
 
-// 5 = 5 * 4 * 3 * 2 * 1 = 120
-// 9 = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+let nums = 5;
 
-// let num = 9;
+let facts = 1;
 
-// let fact = 1;
+while(nums != 0){
+    facts = facts * nums
+    nums--
+}
 
-// while(num != 0){
-//     fact = fact * num
-//     num--
-// }
-
-// console.log(fact)
+console.log(facts)
 
 // armstrong number
-// sum of cube of digits is equal to original number
-//  153 = 1 + 125 + 27 
 
-// let num  = 153;
+let num3  = 153;
 
-// let d;
+let d;
 
-// let org = num
+let org = num3
 
-// let sum = 0
+let sum = 0
 
-// while(num != 0){
+while(num3 != 0){
 
-//     d = num % 10
+    d = num3 % 10
 
-//     sum = sum + (d * d * d)
+    sum = sum + (d * d * d)
 
-//     // updation
-//     num = num / 10
-//     num = parseInt(num)
-// }
+    // updation --------type-casting
+    num3 = num3 / 10
+    num3 = parseInt(num3)
+}
 
-// console.log(sum)
+console.log(sum)
 
-// if(org == sum){
-//     console.log(sum + " is a armstrong number !")
-// }else{
-//     console.log(sum + " is not a armstrong number !")
-// }
 
-// sum = sum + (d * d * d)
 
-// sum = 27 + 8
 
-// sum = 35 + 1
 
-// sum = 36
 
-// d = num % 10
+if(org == sum){
+    console.log(sum + " is an armstrong number !")
+}else{
+    console.log(sum + " is not an armstrong number !")
+}
 
-// console.log(d)
+sum = sum + (d * d * d)
 
-// num = num / 10
-// // number -> (number)parseINT
+sum = 27 + 8
 
-// num = parseInt(num)
+sum = 35 + 1
 
-// console.log(num)
+sum = 36
+
+d = num % 10
+
+console.log(d)
+
+num = num / 10
+// type-casting..... number -> (number)parseINT
+
+num = parseInt(num)
+
+console.log(num)
+
+
+
 
 // reverse of numbers
 
-// let num = 546498
+let num4 = 12345
 
-// let d;
+let e;
 
-// let rev = 0
+let rev = 0
 
-// let org = num
+let org1 = num4
 
-// while (num != 0) {
+while (num4 != 0) {
 
-//     d = num % 10;
+    d = num4 % 10;
 
-//     rev = rev * 10 + d
+    rev = rev * 10 + d
     
-//     num  = num / 10
+    num4  = num4 / 10
 
-//     num = parseInt(num)
+    num4 = parseInt(num4)
 
-// }
+}
 
-// console.log(rev)
+console.log(rev)
